@@ -22,7 +22,7 @@ module.exports = function (file, opts) {
         s += chunk;
         cb();
     }, function (cb) {
-        sm.write(s)
+        sm.write(s);
         sm.end();
         sm.pipe(concat(function (output) {
             cb(null, output);
