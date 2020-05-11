@@ -6,7 +6,9 @@
   "dependencies": {
     "bulk-require": "^1.0.1",
     "concat-stream": "^2.0.0",
+    "sink-transform": "^2.0.0",
     "static-module": "^3.0.4",
+    "stream-combiner2": "^1.1.1",
     "through2": "~3.0.1"
   },
   "devDependencies": {
