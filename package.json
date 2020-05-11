@@ -6,11 +6,11 @@
   "dependencies": {
     "bulk-require": "^1.0.1",
     "concat-stream": "^2.0.0",
-    "static-module": "^3.0.3",
+    "static-module": "^3.0.4",
     "through2": "~3.0.1"
   },
   "devDependencies": {
-    "tape": "^4.11.0"
+    "tape": "^4.13.2"
   },
   "scripts": {
     "test": "tape test/*.js"
@@ -20,7 +20,7 @@
     "url": "git://github.com/substack/bulkify.git"
   },
   "engines": {
-    "node" : ">=0.10"
+    "node": ">=0.10"
   },
   "homepage": "https://github.com/substack/bulkify",
   "keywords": [
